@@ -61,6 +61,7 @@ The core of WorkSphere's moderation is a Deep Learning model based on **LaBSE** 
 - MongoDB (Local or Atlas)
 
 ### 1. Clone the Repository
+```bash
 git clone https://github.com/yourusername/worksphere.git
 cd worksphere
 2. Setup Backend (Node.js)
