@@ -84,6 +84,9 @@ source venv/bin/activate  # or venv\Scripts\activate on Windows
 pip install -r requirements.txt
 ⚠️ Important Model Setup:
 The trained model weights are not included in this repo due to size.
+1. Navigate to the ai_training/ directory.
+2. Run the notebook to generate the model files OR download the pre-trained weights.
+3. Place the WorkSphere_labse_Model and WorkSphere_labse_Model_tokenizer folders inside hate_speech_service/models/.
 
 Run the service:
 uvicorn app.main:app --reload --port 8000
