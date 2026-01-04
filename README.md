@@ -89,10 +89,6 @@ pip install -r requirements.txt
 The trained model weights are not included in this repo due to size.
 
 Run the service:
-
-
-code
-Bash
 uvicorn app.main:app --reload --port 8000
 📄 License
 This project is open source.
