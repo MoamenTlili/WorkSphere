@@ -61,25 +61,21 @@ The core of WorkSphere's moderation is a Deep Learning model based on **LaBSE** 
 - MongoDB (Local or Atlas)
 
 ### 1. Clone the Repository
-```bash
 git clone https://github.com/yourusername/worksphere.git
 cd worksphere
 2. Setup Backend (Node.js)
 code
-Bash
 cd server
 npm install
 # Create a .env file based on your config (PORT, MONGO_URL, JWT_SECRET)
 npm start
 3. Setup Frontend (React)
 code
-Bash
 cd ../client
 npm install
 npm run dev
 4. Setup AI Service (Python)
 code
-Bash
 cd ../hate_speech_service
 # Recommended: Create a virtual environment
 python -m venv venv
